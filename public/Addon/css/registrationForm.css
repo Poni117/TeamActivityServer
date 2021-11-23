@@ -1,0 +1,93 @@
+.box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 15px;
+}
+.label{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 350px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.label h1{
+    width: 100%;
+    margin: 5px;
+    color: #025388;
+}
+
+.label text {
+    position: absolute;
+    right: 3%;
+    color: #025388;
+}
+.inputs{
+    display: grid;
+    border: 2px solid #3498db;
+    margin:25px auto;
+    width: 250px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 5% 95%;
+
+    border-radius: 55px;
+}
+
+input[type = 'email'], input[type = 'password']{
+    display: block;
+    margin: 2px auto;
+    background: none;
+    height: 39px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+}
+
+.inputs i{
+    margin: auto 9px;
+    color: #0580d3;
+}
+
+.inputs:hover{
+    width: 250px;
+    border-color: #770294;
+}
+
+.reg-button{
+    display: block;
+    margin: 2px auto;
+    background-color: #3498db;
+    height: 49px;
+    width: 125px;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    border-color: #3498db;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.15s;
+    color: white;
+    font-weight: 600;
+}
+
+.reg-button:hover{
+    width: 135px;
+    background-color: #3498db;
+    border: none;
+}
+
+input:-webkit-autofill { 
+    -webkit-background-clip: text;
+}

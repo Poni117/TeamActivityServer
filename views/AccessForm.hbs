@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>Access</title>
+    <link rel="stylesheet" type="text/css" href="/Addon/css/accessForm.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="root">
+
+      <div class="labels">
+        <label class="label-bitbucket label">
+          <img 
+                id='img-bitBucket'
+                src='/Addon/img/Bitbucket.png'
+          />
+          <div class="text">
+              <span>Click on the label to authenticate our app "Actions Of Emplyees" in BitBucket</span>
+          </div>
+          <div class="access no-access-bitbucket">No access</div>
+          <button id="btn-bitBucket">AccessBitBucket</button>
+        </label>
+        
+        <label class="label-jira label">
+          <img 
+            id="img-jira"
+            src="/Addon/img/jira.png">
+            <div class="text">
+              <span>Click on the label to authenticate our app "Actions Of Emplyees" in Jira</span>
+            </div>
+          <div class="access no-access-jira">No access</div>
+          <button id="btn-jira">AccessJira</button>
+        </label>
+      </div>
+        
+      <script src="/Addon/js/access.js" type="module"></script>
+  </body>
+</html>
